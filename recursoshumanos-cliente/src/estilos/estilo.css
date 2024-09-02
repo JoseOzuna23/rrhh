@@ -1,0 +1,50 @@
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdd57 !important; /* Cambiar color */
+    transform: scale(1.1); /* Aumentar tamaño ligeramente */
+}
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler:hover {
+    transform: rotate(90deg); /* Rotar al hacer hover */
+}
+
+.boton-css {
+   /* Ajusta el padding para el tamaño deseado */
+    font-size: 1.1rem; /* Ajusta el tamaño de fuente */
+    padding:10px 20px;
+    border: rgb(235, 238, 238) 5px double;
+    
+}
+
+/* bloque de estilo tabla */
+/* styles.css */
+
+/* Color de fondo para la tabla */
+.table-custom {
+    background-color: #f8f9fa; /* Color de fondo de la tabla */
+}
+
+/* Color de fondo para las filas de la tabla */
+.table-custom .table-success {
+    background-color: #d4edda; /* Color de fondo para filas con clase table-success */
+}
+
+/* Color de fondo para filas alternas (striped) */
+.table-custom .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Color de fondo para filas alternas */
+}
+
+/* Color de fondo para las filas de la tabla al pasar el ratón (hover) */
+.table-custom .table-striped tbody tr:hover {
+    background-color: #e2e3e5; /* Color de fondo para filas en hover */
+}
